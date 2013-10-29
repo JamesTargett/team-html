@@ -14,11 +14,29 @@ body {
   padding: 6px;
 }
 
+#team-members .member div.name {
+  text-align: center;  
+}
+
 #team-members .member img {
   width: 200px;
   height: 200px;
 }
 
-#team-members .member div.name {
-  text-align: center;  
+#team-members .member img.filter {
+  display: none;
 }
+
+#team-members .member:hover img.normal {
+  display: none;
+}
+
+#team-members .member:hover img.filter {
+  display: block;
+}
+
+#team-members img.biopic {
+  width: 400px;
+  height: 400px;
+}
+
