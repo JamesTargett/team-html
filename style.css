@@ -27,7 +27,7 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 100px;
-  border: 4px dotted #fff;
+  border: 4px solid #fff;
   box-shadow: 0px 0px 20px #000;
 }
 
@@ -39,11 +39,11 @@ body {
   display: none;
 }
 
-#team-members .member:hover .images:nth-child(2n+1) {
-  -webkit-transform: scale(1.1);
+#team-members .member:nth-child(odd):hover .images {
+  -webkit-transform: scale(1.3);
 }
 
-#team-members .member:hover .images:nth-child(2n) {
+#team-members .member:nth-child(even):hover: .images {
   -webkit-transform: rotate(0deg);
 }
 
