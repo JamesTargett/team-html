@@ -1,6 +1,23 @@
 body {
   font-family: Verdana;
   font-size: 1.5em;
+  font-family: Tahoma, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #EDEDED;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+#header {
+  width: 100%;
+  background-color: #2F2F4F;
+  margin: 0 0 20px;
+  padding: 10px;
 }
 
 #team-members {
