@@ -22,7 +22,9 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 100px;
-  box-shadow: 0px -4px 15px #000;
+  border: 4px dotted #fff;
+  box-shadow: 0px 0px 20px #000;
+  -webkit-transform: rotate(40deg);
 }
 
 #team-members .member img.filter {
@@ -34,7 +36,8 @@ body {
 }
 
 #team-members .member:hover img.filter {
-  display: block;
+  display: inline;
+  -webkit-transform: rotate(0deg);
 }
 
 #team-members img.biopic {
