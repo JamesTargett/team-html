@@ -18,26 +18,34 @@ body {
   text-align: center; 
 }
 
-#team-members .member img {
+#team-members .member .images {
+  -webkit-transform: rotate(40deg);
+  -webkit-transition: all 0.5s ease-in-out;
+  }
+
+#team-members .member .images img {
   width: 200px;
   height: 200px;
   border-radius: 100px;
   border: 4px dotted #fff;
   box-shadow: 0px 0px 20px #000;
-  -webkit-transform: rotate(40deg);
 }
 
-#team-members .member img.filter {
+#team-members .member .images img.filter {
   display: none;
 }
 
-#team-members .member:hover img.normal {
+#team-members .member:hover .images img.normal {
   display: none;
 }
 
-#team-members .member:hover img.filter {
-  display: inline;
+#team-members .member:hover .images {
   -webkit-transform: rotate(0deg);
+}
+
+#team-members .member:hover .images img.filter {
+  display: inline;
+  
 }
 
 #team-members img.biopic {
