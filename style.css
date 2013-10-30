@@ -39,17 +39,19 @@ body {
   display: none;
 }
 
-#team-members .member:hover .images {
+#team-members .member:hover .images:nth-child(2n+1) {
+  -webkit-transform: scale(1.1);
+}
+
+#team-members .member:hover .images:nth-child(2n) {
   -webkit-transform: rotate(0deg);
 }
 
 #team-members .member:hover .images img.filter {
   display: inline;
-  
 }
 
 #team-members img.biopic {
   width: 400px;
   height: 400px;
 }
-
