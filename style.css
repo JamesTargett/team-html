@@ -15,12 +15,14 @@ body {
 }
 
 #team-members .member div.name {
-  text-align: center;  
+  text-align: center; 
 }
 
 #team-members .member img {
   width: 200px;
   height: 200px;
+  border-radius: 100px;
+  box-shadow: 0px -4px 15px #000;
 }
 
 #team-members .member img.filter {
